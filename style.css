@@ -1,0 +1,66 @@
+
+body{
+    color: aliceblue;
+    background-image: url(imagenes/img.kan.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+.derecha{
+    margin-top: 3%;
+    text-align: center;
+    width: 50%;
+    float: left;
+}
+
+.izquierda{
+    width: 50%;
+    float: left;
+}
+.izquierda img{
+    margin-left: 20%;
+    width: 25%;
+    border-radius:50%;
+
+}
+.actividades{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+ .actividades nav{
+
+    width: 27%;
+    padding: 20px;
+    float: left;
+    margin: 1.66%;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgb(96, 91, 91);
+    transition: 0.3s;
+ }
+
+ .actividades img{
+    width: 40%;
+ }
+ .actividades button{
+    width: 35%;
+    border-radius: 15%;
+    padding: 2%;
+    cursor:grab;
+
+ }
+ a{
+    color: aliceblue;
+    text-decoration: none;
+ }
+ .actividades nav:hover{
+    transform: scale(1.13);
+    background-color: rgb(60, 58, 58);
+ }

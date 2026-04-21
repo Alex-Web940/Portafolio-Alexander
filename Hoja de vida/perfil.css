@@ -1,0 +1,69 @@
+body {
+    background-color: beige;
+    margin: 0;
+}
+
+.primer {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.primer table {
+    width: 100%;
+}
+
+#img {
+    width: 30%;
+    text-align: center;
+}
+
+#text {
+    text-align: center;
+    padding: 5%;
+}
+
+.primer img {
+    border-radius: 60%;
+}
+
+.primer p {
+    text-align: center;
+    padding: 5%;
+}
+
+.primer h2 {
+    text-align: center;
+}
+
+.primer strong {
+    text-align: center;
+    display: block;
+}
+
+.general {
+    max-width: 1700px;
+    margin: 20px auto;
+    background-color: rgb(241, 241, 212);
+    overflow: hidden;
+}
+
+.derecha {
+    width: 50%;
+    float: left;
+    background-color: rgb(238, 238, 213);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.izquierda {
+    width: 50%;
+    float: left;
+    background-color: rgb(241, 241, 212);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h2, h3, p, ul {
+    margin-left: 10px;
+    margin-right: 10px;
+}
