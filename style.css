@@ -1,0 +1,117 @@
+        body {
+            color: aliceblue;
+            background-image: url(imagenes/img.kan.jpeg);
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0 
+        }
+ 
+        h1, h2 {
+            text-align: center;
+        }
+ 
+        .perfil {
+            width: 80%;
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 10rem;
+            padding: 10px 0;
+            flex-wrap: wrap;
+        }
+ 
+        .derecha h2 {
+            margin: 0;
+        }
+ 
+        .izquierda {
+            display: flex;
+            justify-content: right;
+            align-items: right;
+        }
+
+        .izquierda img {
+            width: 40%;
+            border-radius: 50%;
+        }
+ 
+        .actividades {
+            margin: auto;
+            text-align: center;
+        }
+ 
+        .proyect {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
+            max-width: 80%;
+            margin: auto;
+        }
+ 
+       
+        .proyect nav {
+            padding: 10px;
+            border-radius: 15px;
+            background-color: rgb(96, 91, 91);
+            transition: 0.3s;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+ 
+        .actividades .proyect img {
+            width: 60%;
+            max-width: 100px;
+            height: auto;
+        }
+ 
+        .actividades button {
+            width: 35%;
+            border-radius: 15%;
+            padding: 2%;
+            cursor: grab;
+        }
+
+        .proyect a {
+            color: aliceblue;
+            text-decoration: none;
+            
+        }
+
+        .proyect nav:hover{
+    transform: scale(1.13);
+    background-color: rgb(60, 58, 58);
+ }
+
+
+         @media (max-width: 850px) {
+            .proyect {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+ 
+        @media (max-width: 480px) {
+            .proyect {
+                grid-template-columns: 1fr;
+                max-width: 100%;
+            }
+        }
+ 
+        @media (max-width: 978px) {
+
+            .perfil {
+            width: 90%;}
+
+            .izquierda {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    
+        }
+        
