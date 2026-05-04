@@ -17,12 +17,14 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 24px 36px;
+  padding-right: 40px;
   padding-bottom: 0;
 }
 
 .izquierda {
   display: flex;
   align-items: center;
+
   gap: 12px;
 }
 
@@ -34,20 +36,17 @@ body {
 }
 
 .izquierda h2 {
-  font-size: 16px;
   margin-bottom: 2px;
 }
 
 .izquierda p {
-  font-size: 11px;
   color: #aaaaaa;
   margin-top: 0;
 }
 
 .derecha h1 {
   color: red;
-  font-size: 36px;
-  letter-spacing: 5px;
+  letter-spacing: 7px;
 }
 
 .linea-roja {
@@ -61,27 +60,24 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 0px 36px 24px 36px;
+  padding: 0px 36px 24px 40px;
 }
 
 .dtos{
   color: #cccccc;
-  max-width: 27%;
+  max-width: 30%;
 }
 
 .dtos h3{
   font-weight: bold;
-  font-size: 14px;
   margin-bottom: 6px;
 }
 
 .dtos p {
-  font-size: 11px;
   margin-top: 0px;
 }
 
 .dtos h4 {
-  font-size: 13px;
   margin-bottom: 4px;
   margin-top: 0px;
 }
@@ -92,7 +88,6 @@ body {
 }
 
 .dtos_num td {
-  font-size: 13px;
   padding: 0px 10px;
   color: #cccccc;
 }
@@ -118,7 +113,6 @@ body {
 }
 
 .pagos p{
-  font-size: 12px;
   margin-bottom: 0;
   padding: 10px;
 }
@@ -140,28 +134,25 @@ body {
 
 
 .info {
-  width: 48%;
+  width: 60%;
   padding: 0;
 }
 
 .info h3 {
-  font-size: 13px;
   margin-bottom: 12px;
 }
 
 .info h4 {
-  font-size: 13px;
   margin-bottom: 8px;
 }
 
 .pago{
   display: grid;
   grid-template-columns: 1fr 1fr ;
-  width: 60%;
+  width: 70%;
   
 }
 .pago p {
-  font-size: 11px;
   color: #555555;
   margin: 0;
 }
@@ -173,7 +164,6 @@ body {
 .resum {
   display: flex;
   justify-content: space-between;
-  font-size: 13px;
   color: black;
 }
 
@@ -188,26 +178,25 @@ margin-bottom: 0px;
 
 .total-final {
   font-weight: bold;
-  font-size: 16px;
   color: black;
 
 }
 
 .terminos {
-  padding: 0px 36px 8px 36px;
+  padding: 0px 36px 0px 36px;
   width: 40%;
 }
 
 .terminos h4 {
-  font-size: 13px;
   margin-bottom: 7px;
 }
 
 .terminos p {
-  font-size: 11.5px;
   color: #777777;
   line-height: 1.7;
   max-width: 380px;
+  margin-bottom: 0;
+  
 }
 
 .firma-area {
@@ -223,7 +212,6 @@ margin-bottom: 0px;
 }
 
 .linea {
-  font-size: 11px;
   color: black;
   text-align: center;
   margin-top: 5px;
@@ -247,7 +235,7 @@ border: solid black 1px;
 
 @media (max-width: 643px){
   .pago{
-    width: 65%;
+    width: 72%;
   }
 
   .encabezado{
@@ -279,7 +267,7 @@ border: solid black 1px;
    }
 
    .pago{
-     width: 70%;
+     width: 77%;
    }
    .dtos{
   max-width: 33%;
@@ -316,52 +304,11 @@ border: solid black 1px;
 
 }
 
+
+
+
 @media (max-width: 570px){
-  .pago{
-    width: 80%;
-  }
-}
-
-@media (max-width: 507px){
-  .pago{
-    width: 90%;
-  }
-  .encabezado{
-    padding: 15px 20px;
-  padding-bottom: 0;
-  }
-  .dtos{
-  max-width: 37%;
-}
-  
-}
-
-@media (max-width: 438px){
-  .pago{
-    width: 100%;
-  }
-  .encabezado{
-    padding: 13px 19px;
-  padding-bottom: 0;
-  }
-.subencabezado{
-  padding: 0px 25px 20px 25px;
-}
-
-  .pie,
-   .terminos{
-    padding: 0px 20px 0px 20px;
-   }
-   #line_final{
-    margin: 25px 0px 0px 27px;
-   }
-   .dtos{
-  max-width: 42%;
-}
-}
-
-@media (max-width: 415px){
-  .encabezado{
+.encabezado{
  display: flex;
  flex-direction: column;
  margin: auto;
@@ -388,7 +335,7 @@ border: solid black 1px;
     padding: 0px 12px 0px 16px;
    }
 .terminos{
-  width: 80%;
+  width: 90%;
 }
 .derecha h1{
   margin: 0px 0px 0px 0px ;
@@ -410,13 +357,26 @@ margin: 0px 0px 0px 10px ;
 
 .info    {
   padding-top: 12px;
-   width: 55%;}
+   width: 100%;}
+
+   .pago{
+    width: 55%;
+   }
 }
 
+@media (max-width: 438px){
+  .pago{
+    width: 65%;
+  }
 
-@media (max-width: 341px){
+}
+
+@media (max-width: 400px){
+  .pago{
+    width: 75%;
+  }
   .info{
-    width: 70%;
+    width: 100%;
   }
   .subencabezado{
     display: flex;
@@ -435,3 +395,8 @@ margin: 0px 0px 0px 10px ;
   .dtos_num td{
 padding: 0px 16px 0px 0px ;}
 }
+
+@media (max-width: 328px){
+  .pago {width: 85%;
+
+  }}
