@@ -1,25 +1,205 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Palox Store</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
-    <header>
-        <nav class="barra-nav">
-        <h1>PHLOK</h1>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Shop</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
-        </ul>
-    </nav>
+
+  <main class="page">
+
+    <!-- Header -->
+    <header class="header">
+      <a href="#" class="logo">PALOX</a>
+
+      <nav class="nav">
+        <a class="active" href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+      </nav>
+
+      <div class="header-icons">
+        <button>
+          <i data-lucide="search"></i>
+        </button>
+
+        <button class="cart">
+          <i data-lucide="shopping-bag"></i>
+          <span>0</span>
+        </button>
+      </div>
     </header>
+
+    <!-- Hero -->
     <section class="hero">
+      <div class="hero-content">
+        <p>Beats Solo</p>
+        <h1>Wireless</h1>
+        <h2>HEADPHONE</h2>
+
+        <a href="#" class="btn red">
+          Shop Now
+          <i data-lucide="arrow-right"></i>
+        </a>
+      </div>
+
+      <img class="hero-img" src="assets/headphones-main.png" alt="Headphones">
+
+      <div class="hero-text">
+        <h4>Sound Explosion</h4>
+        <p>
+          Unleash your music with<br>
+          powerful sound and deep bass.<br>
+          Built for comfort. Made to move.
+        </p>
+      </div>
+    </section>
+
+    <!-- Product grid -->
+    <section class="product-grid">
+
+      <article class="card card-dark small">
+        <div class="card-text">
+          <span>Truly</span>
+          <h3>With</h3>
+          <strong>EARPHONE</strong>
+          <a href="#" class="btn red small-btn">Browse</a>
+        </div>
+        <img src="assets/earbuds.png" alt="Earphone">
+      </article>
+
+      <article class="card card-yellow small">
+        <div class="card-text">
+          <span>New</span>
+          <h3>WATCH</h3>
+          <a href="#" class="btn white small-btn">Browse</a>
+        </div>
+        <img src="assets/watch.png" alt="Watch">
+      </article>
+
+      <article class="card card-red wide">
+        <div class="card-text">
+          <span>Best</span>
+          <h3>Devices</h3>
+          <strong>LAPTOP</strong>
+          <a href="#" class="btn white small-btn red-text">Browse</a>
+        </div>
+        <img src="assets/laptop.png" alt="Laptop">
+      </article>
+
+      <article class="card card-light wide">
+        <div class="card-text">
+          <span>Coming</span>
+          <h3>Next-Gen</h3>
+          <strong>CONSOLE</strong>
+          <a href="#" class="btn red small-btn">Browse</a>
+        </div>
+        <img src="assets/console.png" alt="Console">
+      </article>
+
+      <article class="card card-green small">
+        <div class="card-text">
+          <span>VR</span>
+          <h3>Game</h3>
+          <a href="#" class="btn white small-btn dark-text">Browse</a>
+        </div>
+        <img src="assets/vr.png" alt="VR">
+      </article>
+
+      <article class="card card-blue small">
+        <div class="card-text">
+          <span>New</span>
+          <h3>Amazon</h3>
+          <strong>ECHO DOT</strong>
+          <a href="#" class="btn white small-btn blue-text">Browse</a>
+        </div>
+        <img src="assets/echo-dot.png" alt="Echo Dot">
+      </article>
 
     </section>
+
+    <!-- Services -->
+    <section class="services">
+
+      <div class="service">
+        <i data-lucide="truck"></i>
+        <div>
+          <h4>Free Shipping</h4>
+          <p>For all orders over $50</p>
+        </div>
+      </div>
+
+      <div class="service">
+        <i data-lucide="badge-check"></i>
+        <div>
+          <h4>Money Guarantee</h4>
+          <p>30 Days Money Back</p>
+        </div>
+      </div>
+
+      <div class="service">
+        <i data-lucide="headphones"></i>
+        <div>
+          <h4>Online Support 24/7</h4>
+          <p>Technical Support 24/7</p>
+        </div>
+      </div>
+
+      <div class="service">
+        <i data-lucide="credit-card"></i>
+        <div>
+          <h4>Secure Payment</h4>
+          <p>100% Secure Payment</p>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Sale banner -->
+    <section class="sale">
+      <div class="sale-left">
+        <span>UP TO 50% OFF</span>
+        <h2>FINAL<br>SMILE</h2>
+        <p>From 15 June</p>
+      </div>
+
+      <img src="assets/headphones-red.png" alt="Red Headphones">
+
+      <div class="sale-right">
+        <span>LIMITED TIME ONLY</span>
+        <h3>Summer Sale</h3>
+        <p>
+          Big savings on bestsellers.<br>
+          Don't miss out!
+        </p>
+
+        <a href="#" class="btn white small-btn red-text">
+          Shop Now
+          <i data-lucide="arrow-right"></i>
+        </a>
+      </div>
+    </section>
+
+    <section class="best-seller">
+      <h2>Best Seller Products</h2>
+      <p>Explore Our Premium Collection</p>
+    </section>
+
+  </main>
+
+  <script>
+    lucide.createIcons();
+  </script>
+
 </body>
 </html>
